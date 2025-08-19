@@ -20,4 +20,19 @@ fun main(args : Array<String>) {
     val s = "Hello All"
     println(s)
 
+    var s2: String? = "hello"
+    println(s2)
+    val aa = s2?.length
+    s2 = null
+    println(s2)
+    val bb = s2?.length
+    println(aa)
+    println(bb)
+    val cc = s2?.length ?: -1
+    println(cc)
+
+
+
+
+
 }
